@@ -30,7 +30,7 @@ end
  
  
    class Admin < User
-   include AdminPermisson
+      include AdminPermisson
 
       def admin_login
          self.login
